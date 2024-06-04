@@ -1,0 +1,9 @@
+# Activity 2
+age = int(input("Please enter your age: ")) #this line im using prompts the user to enter their age that converts it into integer.
+if age < 18: #this line checks if the user is under 18
+    if age < 5: #this line checks if the user is under 5, the line is used.
+        print("No ticket price.") #this line im using print, that prints 'no ticket price' if the age is less than 5.
+    else: #this line is to code that if the age is 5 or more (but also less than 18), this line is used.
+        print("Ticket price is half the full price.") #this line im using print that prints out 'ticket orice is half the full price'.
+else: #this  line im using to show that if the age is 18 or more, this line is used.
+    print("Full ticket price.") #this line is to print 'full ticket price'.
