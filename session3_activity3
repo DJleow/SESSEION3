@@ -1,0 +1,14 @@
+# Activity 3
+marks = int(input("Please enter your marks: ")) #This line Im using to Prompts the user to enter their marks so it converts it to an integer.
+if 0 <= marks <= 49: #this line is made to check if the marks are outside the valid range given (0 to 100)
+    print("FAIL") #this line is used to print 'FAIL' is the condition is true.
+elif 50 <= marks <= 64: #this line is used to check if the value of 'marks' is between 50 and 64. And the 'elif' means else if, and is only checked if the previous condition range 'if' was false.
+    print("PASS") #this line is used to print the condition if it is true, so it will print 'PASS'.
+elif 65 <= marks <= 74: #this line has a condition to check is the value of 'marks' is between 65 and 74.
+    print("CREDIT") #if the condition given is true, it will print 'CREDIT'
+elif 75 <= marks <= 84: #this line is the condition that checks if the value of 'marks' is between 75 and 84.
+    print("DIST") #this line prints 'DIST' if the condition is true.
+elif marks >= 85: #this line is the condition that checks the value of 'marks' is 85 or better.
+    print("HD") #this line is used to print 'HD' if the condition is true.
+else: #this line is used to check the condition if none of the previous if or elif condition were true.
+    print("Invalid marks") #this line is used to print 'Invalid marks' if none of the conditions were met. in this case (0-100) marks
