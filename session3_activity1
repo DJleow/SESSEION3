@@ -1,0 +1,5 @@
+#TOPIC AGE FOR MINOR
+# Activity 1
+age = int(input("Please enter your age: ")) # on this line we are using the input function as a string, that converts to an integer.
+if age < 18: #this line is responsible to check if the user is less than 18.
+    print("You are a minor.") # this line shows if the condition is true and then it prints the 'message you are a minor'.
